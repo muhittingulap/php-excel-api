@@ -1,12 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: muhittin
- * Date: 28.03.2020
- * Time: 15:17
- */
-
-if (!class_exists("PHPExcel")) require_once(ROOT_FOLDER . 'inc/cls/excel/PHPExcel.php');
+if (!class_exists("PHPExcel")) require_once('excel/PHPExcel.php');
 
 class Excel
 {
